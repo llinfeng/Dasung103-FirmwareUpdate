@@ -42,15 +42,15 @@ Through the Dropbox link, you can find the following:
    ```
    Then, carefully paste the following to the newly opened `adb shell`.
    ```
-update_engine_client --update --follow --payload=file:///data/ota_package/update.zip --offset=9034 --size=807766351 --headers="FILE_HASH=skZmkigtTTNayzPX7KG64Tbg7+YUairc25GI/96vCXU=
-FILE_SIZE=807766351
-METADATA_HASH=8fZx8Pn7JRBRbuo6Crp8+PBjfGklBgvlQ6Vx23hCp5o=
-METADATA_SIZE=108795
-"
+    update_engine_client --update --follow --payload=file:///data/ota_package/update.zip --offset=9034 --size=807766351 --headers="FILE_HASH=skZmkigtTTNayzPX7KG64Tbg7+YUairc25GI/96vCXU=
+    FILE_SIZE=807766351
+    METADATA_HASH=8fZx8Pn7JRBRbuo6Crp8+PBjfGklBgvlQ6Vx23hCp5o=
+    METADATA_SIZE=108795
+    "
    ```
    > Here is what to expect after issuing command `adb shell`:
    > ![adb shell, loaded](adb_shell_interface.png)
-   
+
 5. Wait for the update to finish (around 5-10 minutes)
 6. Then, still in the `abd shell`, issue command: `reboot`. 
     (Note, through the abd shell, the `reboot` command is sent to the tablet
