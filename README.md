@@ -7,6 +7,24 @@ Translate:
 > Q: Do you guys mind me uploading the firmware to Github?
 > A: We don't mind.
 
+## Update (Version 3.0.14)
+Change Log: 
+```
+【10.3英寸平板Not-eReader 103更新】3.0.14版本 （2021年9月10日） 
+更新内容： 
+1、增加了谷歌服务的开关（设置-应用和通知）        ==> Added "Google Play services" to the App info list under Settings/Apps&Notification
+2、下拉栏增加了“位置”开关                       ==> Added a "Location" botton to the "Quick Panel" (swipe down from the top of the tablet for this panel)
+3、多任务界面增加了内存使用情况                  ==> Added the current memory usage to the app-switcher view 
+4、优化了APP安装界面                           ==> Udpated the installation confirmation box
+5、优化了OTA流程，并增加了海内外服务器选择功能     ==> **Added an option to choose Mainland China as an option for the System upgrade server**
+6、优化了低电量时自动关机的逻辑                  ==> When the battery is low, the device now shall turn off by itself.
+7、修复了小语种下的定时休眠不匹配问题             ==> Fixed the auto-sleep timer for "other languages".
+8、修复了一些你已知和你未知的bug……               ==> "Fixed some bug that you may or may not know about ...
+【更新方式】平板的设置——系统——系统更新——检测更新（请提前连网并确认设备有足够电量的情况下再进行升级）
+```
+
+[**Click here**](https://www.dropbox.com/sh/3xlkgzsn9yb5kcb/AABr9EiVN5TGjOJ8YVTuUg5Aa?dl=0) to download all the necessary files for update 3.0.14. (This is a Dropbox link.) For detailed steps for updating the Dasung 103 tablet manually, please read along.
+
 ## Update (Version 3.0.13.210705)
 Change Log:
 * Fix the unexpected power-on issue when Bluetooth is kept active.
