@@ -50,6 +50,7 @@ METADATA_SIZE=108795
    ```
    > Here is what to expect after issuing command `adb shell`:
    > ![adb shell, loaded](adb_shell_interface.png)
+   
 5. Wait for the update to finish (around 5-10 minutes)
 6. Then, still in the `abd shell`, issue command: `reboot`. 
     (Note, through the abd shell, the `reboot` command is sent to the tablet
