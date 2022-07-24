@@ -1,3 +1,7 @@
+This repo is no longer updated. For me, after upgrading to Firmware 3.0.15, subsequent firmware updates went through without an issue. For this reason, I haven't asked the devs for new `update.zip` files for offline upgrade to a higher firmware version.
+
+----
+
 # How to update
 Depending on your region, Dasung may or may not have pushed their firmware
 updates to their server. If the auto-update works, great. If not, read along.
